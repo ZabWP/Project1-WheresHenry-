@@ -21,13 +21,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 100vw;
-  min-height: 100vh;
+
+  height: 100vh;
 }
 
 .backgroundContainer {
   background-position: center;
-  background-size: contain;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -61,7 +60,7 @@ a {
   align-items: center;
   font-size: 80px;
   font-weight: 700;
-  display: all;
+  opacity: 1;
 }
 
 .leftPanel {
@@ -75,19 +74,29 @@ a {
   right: 0;
   width: 50%;
   animation: slideRight 0.5s forwards 3s;
+
   justify-content: left;
 }
 
 @keyframes slideLeft {
   0% {
     left: 0;
+    opacity: 1;
+    width: 50%;
+    height: 100%;
     display: all;
   }
   99% {
-    display: all;
+    left: -50%;
+    opacity: 1;
+    width: 50%;
+    height: 100%;
   }
   100% {
-    left: -50%;
+    left: 200px;
+    opacity: 0;
+    width: 0;
+    height: 0;
     display: none;
   }
 }
@@ -95,13 +104,22 @@ a {
 @keyframes slideRight {
   0% {
     right: 0;
+    opacity: 1;
+    width: 50%;
+    height: 100%;
     display: all;
   }
   99% {
-    display: all;
+    right: -50%;
+    opacity: 1;
+    width: 50%;
+    height: 100%;
   }
   100% {
-    right: -50%;
+    right: 200px;
+    opacity: 0;
+    width: 0;
+    height: 0;
     display: none;
   }
 }
@@ -140,10 +158,16 @@ a {
   }
   99% {
     opacity: 1;
+    width: 400px;
+    height: 50px;
   }
 
   100% {
     opacity: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    display: none;
   }
 }
 
