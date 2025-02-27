@@ -183,8 +183,14 @@ a {
   }
 }
 
+.information {
+  min-width: 480px;
+  min-height: 90px;
+}
+
 .infoContainer:hover {
   background-color: rgb(255, 255, 255);
   width: 500px;
   height: 100px;
+  overflow: auto;
 }
