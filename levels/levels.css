@@ -165,3 +165,14 @@ a {
     transform: rotate(0deg);
   }
 }
+
+.infoContainer {
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  & img {
+    width: 50px;
+  }
+}
