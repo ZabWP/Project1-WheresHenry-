@@ -10,5 +10,7 @@
   width: 4.5%;
   bottom: 5%;
   left: 31.7%;
+
+  /* Style image as needed to make it blend in */
   filter: brightness(70%);
 }
