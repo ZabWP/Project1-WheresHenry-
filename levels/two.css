@@ -7,10 +7,10 @@
 
 /* Resize and position the hidden image as needed */
 .hiddenContainer {
-  width: 2.5%;
-  bottom: 5%;
-  left: 31.7%;
+  width: 1.75%;
+  bottom: 57%;
+  left: 35%;
 
   /* Style image as needed to make it blend in */
-  filter: brightness(70%);
+  filter: brightness(60%);
 }
