@@ -61,6 +61,7 @@ a {
   align-items: center;
   font-size: 80px;
   font-weight: 700;
+  display: all;
 }
 
 .leftPanel {
@@ -80,18 +81,28 @@ a {
 @keyframes slideLeft {
   0% {
     left: 0;
+    display: all;
+  }
+  99% {
+    display: all;
   }
   100% {
     left: -50%;
+    display: none;
   }
 }
 
 @keyframes slideRight {
   0% {
     right: 0;
+    display: all;
+  }
+  99% {
+    display: all;
   }
   100% {
     right: -50%;
+    display: none;
   }
 }
 
