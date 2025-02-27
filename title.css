@@ -163,8 +163,14 @@ body {
       font-size: 60px;
     }
 
-    & .buttonContainer {
-      margin: 0;
+    & .contentContainer {
+      & p {
+        margin: 0px 40px;
+      }
+      & .header {
+        font-weight: 900;
+        font-size: 20px;
+      }
     }
   }
 }
