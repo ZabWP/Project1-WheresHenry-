@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pageWrapper {
+  background-image: url(../assets/1.png);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.imgContainer {
+  width: 57px;
+  position: absolute;
+  bottom: 35px;
+  left: 460px;
+
+  & a {
+    cursor: default;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+}
+
+.hidden {
+  width: 100%;
+  height: auto;
+  filter: brightness(75%);
+}
