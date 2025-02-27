@@ -26,34 +26,26 @@ body {
 }
 
 .backgroundContainer {
-  background-image: url(../assets/1.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 1280px;
-  height: 720px;
   position: relative;
-  scale: 1.1;
+}
+
+a {
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none;
 }
 
 .hiddenContainer {
-  width: 4.5%;
   position: absolute;
-  bottom: 5%;
-  left: 31.7%;
-
-  & a {
-    cursor: default;
-    user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    outline: none;
-  }
 }
 
 .hidden {
   width: 100%;
   height: auto;
-  filter: brightness(75%);
 }
