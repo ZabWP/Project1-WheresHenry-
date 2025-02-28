@@ -196,17 +196,26 @@ a {
 .infoContainer {
   z-index: 1;
   position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 50px;
-  height: 50px;
+  top: 15px;
+  left: 15px;
+  width: 55px;
+  height: 55px;
   overflow: hidden;
   transition: all 0.3s ease;
   display: flex;
   border-radius: 10px;
+
   & img {
     width: 50px;
     height: 50px;
+    pointer-events: none;
+  }
+
+  & img:hover ~ .infoContainer {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 100px;
+    overflow: auto;
   }
 }
 
