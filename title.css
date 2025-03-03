@@ -132,3 +132,45 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.selectLvl {
+  align-items: center;
+  justify-content: center;
+
+  & .mainContainer {
+    align-items: center;
+    justify-content: center;
+
+    & h1 {
+      font-size: 60px;
+    }
+
+    & .buttonContainer {
+      margin: 0;
+    }
+  }
+}
+
+.credits {
+  align-items: center;
+  justify-content: center;
+
+  & .mainContainer {
+    align-items: center;
+    justify-content: center;
+
+    & h1 {
+      font-size: 60px;
+    }
+
+    & .contentContainer {
+      & p {
+        margin: 0px 40px;
+      }
+      & .header {
+        font-weight: 900;
+        font-size: 20px;
+      }
+    }
+  }
+}
