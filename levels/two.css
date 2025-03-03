@@ -1,5 +1,5 @@
 .backgroundContainer {
-  background-image: url(../assets/1.png); /* Replace this background url */
+  background-image: url(../assets/2.png); /* Replace this background url */
   width: 1280px; /* Replace width and height with your image dimensions */
   height: 720px;
   scale: 1.1; /* Adjust scale as needed */
@@ -7,10 +7,10 @@
 
 /* Resize and position the hidden image as needed */
 .hiddenContainer {
-  width: 58px;
-  bottom: 5%;
-  left: 31.7%;
+  width: 1.75%;
+  bottom: 57.5%;
+  left: 35%;
 
   /* Style image as needed to make it blend in */
-  filter: brightness(70%);
+  filter: brightness(60%);
 }
