@@ -173,7 +173,7 @@ a {
 }
 
 .hint {
-  animation: wiggle 0.5s infinite 63s;
+  animation: wiggle 0.5s infinite 18s;
 }
 
 @keyframes wiggle {
